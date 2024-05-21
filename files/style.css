@@ -550,11 +550,12 @@ body {
 
 .row {
     position: relative;
-    down: -10rem;
     border-radius: 8px;
     cursor: pointer;
     padding: 0px;
     overflow: hidden;
+    width: 200px;
+    height: 150px; 
 }
 
 .row img {

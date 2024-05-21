@@ -550,6 +550,7 @@ body {
 
 .row {
     position: relative;
+    down: -10rem;
     border-radius: 8px;
     cursor: pointer;
     padding: 0px;

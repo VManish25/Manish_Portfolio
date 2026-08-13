@@ -15,10 +15,10 @@ const Integration = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl tracking-tight mb-4">
-            Enterprise Integration Experience
+            Enterprise Integrations & Automation
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Connecting enterprise applications and platforms through robust APIs and custom integrations to automate critical business workflows.
+            Specialized in connecting enterprise applications and platforms through APIs, backend services, custom plugins, and workflow automation.
           </p>
         </motion.div>
 
@@ -93,15 +93,15 @@ const Integration = () => {
                  <h3 className="text-xl font-bold text-foreground">AI-Powered Enterprise Automation</h3>
               </div>
               <p className="text-muted-foreground mb-8 text-sm leading-relaxed">
-                 Built custom plugins for the Moveworks AI platform to connect enterprise systems through REST/SOAP APIs and implement business-specific chatbot workflows.
+                 Developed custom plugins for the Moveworks AI platform to connect enterprise systems through REST/SOAP APIs and implement business-specific chatbot workflows.
               </p>
               
               <div className="mt-auto space-y-3 font-mono text-xs text-muted-foreground bg-card rounded-lg p-5 border border-border">
-                 <div className="flex items-center gap-3"><span className="text-primary">&gt;</span> User Request</div>
-                 <div className="flex items-center gap-3 opacity-80 pl-4 border-l border-border ml-1"><ArrowDown className="w-3 h-3" /> Moveworks AI Agent</div>
+                 <div className="flex items-center gap-3"><span className="text-primary">&gt;</span> Moveworks AI Agent</div>
                  <div className="flex items-center gap-3 opacity-80 pl-4 border-l border-border ml-1"><ArrowDown className="w-3 h-3" /> Custom Plugin</div>
                  <div className="flex items-center gap-3 text-indigo-400 pl-4 border-l border-indigo-500/30 ml-1"><Zap className="w-3 h-3" /> REST / SOAP API</div>
                  <div className="flex items-center gap-3 opacity-80 pl-4 border-l border-border ml-1"><ArrowDown className="w-3 h-3" /> Enterprise System</div>
+                 <div className="flex items-center gap-3 opacity-80 pl-4 border-l border-border ml-1"><ArrowDown className="w-3 h-3" /> Business Workflow</div>
                  <div className="flex items-center gap-3"><span className="text-emerald-400">&lt;</span> Response Delivered</div>
               </div>
            </motion.div>

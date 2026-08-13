@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Database, Globe, Layout, Server, Settings, Terminal, Cloud } from 'lucide-react';
+import { Code2, Database, Layout, Server, Settings, Terminal, Cloud, Webhook } from 'lucide-react';
 import { skills } from '../data/content';
 
 const SkillCategory = ({ title, icon: Icon, items, delay }) => (
@@ -39,12 +39,12 @@ const Skills = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <SkillCategory title="Languages" icon={Code2} items={skills.languages} delay={0.1} />
-          <SkillCategory title="Backend & APIs" icon={Server} items={skills.backend} delay={0.2} />
-          <SkillCategory title="Enterprise Platforms" icon={Settings} items={skills.enterprise} delay={0.3} />
+          <SkillCategory title="Frontend" icon={Layout} items={skills.frontend} delay={0.1} />
+          <SkillCategory title="Backend" icon={Server} items={skills.backend} delay={0.2} />
+          <SkillCategory title="APIs & Integration" icon={Webhook} items={skills.apisIntegration} delay={0.3} />
           <SkillCategory title="Databases" icon={Database} items={skills.databases} delay={0.4} />
-          <SkillCategory title="Cloud & DevOps" icon={Cloud} items={skills.cloudDevOps} delay={0.5} />
-          <SkillCategory title="Frontend" icon={Layout} items={skills.frontend} delay={0.6} />
+          <SkillCategory title="Enterprise Platforms" icon={Settings} items={skills.enterprise} delay={0.5} />
+          <SkillCategory title="Cloud & DevOps" icon={Cloud} items={skills.cloudDevOps} delay={0.6} />
           <SkillCategory title="Tools" icon={Terminal} items={skills.tools} delay={0.7} />
         </div>
       </div>

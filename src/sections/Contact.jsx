@@ -18,7 +18,7 @@ const Contact = () => {
             Let's build something useful.
           </h2>
           <p className="text-lg text-muted-foreground mb-12">
-            Currently focused on enterprise integrations and backend systems.
+            Currently building full-stack applications, enterprise integrations, backend services, and cloud-based solutions.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">

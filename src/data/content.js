@@ -3,15 +3,16 @@ import { Briefcase, Code, Database, Server, Settings, Zap } from 'lucide-react';
 
 export const personalInfo = {
   name: "Manish Kumar V",
-  title: "Software Developer",
+  title: "Full Stack Engineer",
+  designation: "Software Developer",
   location: "Chennai, Tamil Nadu, India",
   email: "manish25.mv@gmail.com",
   phone: "+91 8668101001",
   linkedin: "https://linkedin.com/in/manishkumar2501",
   github: "https://github.com/VManish25",
   resumeDriveLink: "https://drive.google.com/file/d/1JWtglnS_meULavl9tgVUyhb-0wuNbgZc/view?usp=drive_link",
-  heroDescription: "Software Developer building enterprise integrations, backend services, and automation solutions using JavaScript, TypeScript, Node.js, REST/SOAP APIs, Freshworks, Moveworks AI, and Azure.",
-  about: "I started my journey with full-stack development and have evolved into an enterprise software developer focusing on complex systems. My day-to-day work involves architecting backend services, building robust REST/SOAP integrations, and developing custom plugins for enterprise platforms like Freshworks and Moveworks AI. I excel at enterprise workflow automation, data migration, and debugging critical production issues, ultimately delivering seamless business workflows deployed via Azure."
+  heroDescription: "Full Stack Engineer building modern web applications, backend services, APIs, enterprise integrations, and cloud-based solutions using React.js, JavaScript, TypeScript, Node.js, Express.js, REST/SOAP APIs, MongoDB, MySQL, Freshworks, Moveworks AI, and Azure.",
+  about: "Full Stack Engineer with experience building modern frontend applications, backend services, API integrations, enterprise workflow solutions, and cloud-deployed applications. Experienced with React.js, JavaScript, TypeScript, Node.js, Express.js, REST/SOAP APIs, MongoDB, MySQL, Freshworks, Moveworks AI, and Azure. I work across the development lifecycle, from understanding requirements and building user-facing interfaces to developing backend services, integrating APIs, testing, deployment, data migration, debugging, and production support."
 };
 
 export const experience = [
@@ -23,9 +24,9 @@ export const experience = [
     highlights: [
       "Delivered multiple enterprise software projects within aggressive timelines while maintaining quality standards.",
       "Worked on Freshworks integration projects involving Freshdesk, Freshservice, Freshsales, Freshchat, and Freshcaller.",
-      "Built custom plugins for the Moveworks AI platform.",
-      "Built plugins for different enterprise systems based on specific business use cases.",
-      "Integrated external systems using REST and SOAP APIs.",
+      "Developed custom plugins for the Moveworks AI platform.",
+      "Developed plugins for different enterprise systems based on specific business use cases.",
+      "Integrated external enterprise systems using REST and SOAP APIs.",
       "Used Postman for API-level CRUD operations, testing, validation, and troubleshooting.",
       "Developed backend services using JavaScript, TypeScript, Node.js, and Express.js.",
       "Worked with MongoDB and MySQL databases.",
@@ -34,7 +35,7 @@ export const experience = [
       "Used Azure App Services for application deployment.",
       "Used Azure DevOps for development and deployment collaboration.",
       "Used Git and GitHub for source control.",
-      "Worked across different enterprise projects and collaborated with teams to understand requirements and deliver technical solutions."
+      "Worked across multiple enterprise projects and collaborated with teams to understand requirements and deliver technical solutions."
     ]
   }
 ];
@@ -53,35 +54,35 @@ export const education = [
 ];
 
 export const skills = {
-  languages: ["JavaScript", "TypeScript", "SQL", "HTML5", "CSS3"],
-  frontend: ["React.js", "React Router", "Bootstrap", "Tailwind CSS"],
-  backend: ["Node.js", "Express.js", "REST APIs", "SOAP APIs"],
-  databases: ["MongoDB", "MySQL"],
+  frontend: ["React.js", "React Router", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"],
+  backend: ["Node.js", "Express.js", "JavaScript", "TypeScript"],
+  apisIntegration: ["REST APIs", "SOAP APIs", "API Integration", "API Testing", "CRUD Operations", "Plugin Development", "Workflow Automation"],
   enterprise: ["Freshdesk", "Freshservice", "Freshsales", "Freshchat", "Freshcaller", "Moveworks AI"],
-  cloudDevOps: ["Azure App Services", "Azure DevOps"],
-  tools: ["Git", "GitHub", "Postman", "VS Code"]
+  databases: ["MongoDB", "MySQL", "SQL"],
+  cloudDevOps: ["Azure App Services", "Azure DevOps", "Git", "GitHub"],
+  tools: ["Postman", "VS Code"]
 };
 
 export const projects = [
   {
     title: "Chat Application",
-    description: "A real-time web chat room application enabling seamless bidirectional messaging between users.",
+    description: "A real-time web chat application enabling seamless bidirectional messaging between users.",
     tech: ["React.js", "Node.js", "Socket.io"],
-    github: "https://github.com/VManish25/chatappclient",
-    demo: "https://friendly-belekoy-9b806d.netlify.app"
+    github: "https://github.com/VManish25/Chat-App",
+    demo: "https://chat-app-frontend-blush.vercel.app/"
   },
   {
     title: "Product Application",
-    description: "An e-commerce style application providing detailed product listings for a seamless shopping experience.",
+    description: "An e-commerce-style application providing detailed product listings and a seamless shopping experience.",
     tech: ["React.js", "Node.js", "MongoDB"],
-    github: "https://github.com/VManish25/ProductApp_FE",
-    demo: "https://stately-vacherin-76de9b.netlify.app"
+    github: "https://github.com/VManish25/product",
+    demo: "https://product-omega-six.vercel.app/"
   },
   {
     title: "BookStore App",
-    description: "A digital bookstore platform designed to enhance critical thinking skills and creativity through reading.",
+    description: "A digital bookstore platform designed to provide users with a simple and engaging browsing experience.",
     tech: ["React.js", "Express.js", "MongoDB"],
-    github: "https://github.com/VManish25/BookStore_FE",
-    demo: "https://beautiful-lamington-cf228b.netlify.app"
+    github: "https://github.com/VManish25/BookStore",
+    demo: "https://book-store-one-rust.vercel.app/"
   }
 ];

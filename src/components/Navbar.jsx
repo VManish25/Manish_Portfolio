@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { personalInfo } from '../data/content';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +14,14 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
+const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Integration', href: '#integration' },
+    { name: 'Integrations', href: '#integration' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
   ];
 

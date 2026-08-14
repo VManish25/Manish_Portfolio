@@ -8,9 +8,12 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-card/30 border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3 mb-16">
-          <FolderGit2 className="w-8 h-8 text-primary" />
-          <h2 className="text-3xl font-bold text-foreground sm:text-4xl tracking-tight">Selected Projects</h2>
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-2">
+            <FolderGit2 className="w-8 h-8 text-primary" />
+            <h2 className="text-3xl font-bold text-foreground sm:text-4xl tracking-tight">Selected Projects</h2>
+          </div>
+          <p className="text-muted-foreground text-base">MERN stack projects built as part of my early hands-on software development experience.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Briefcase, Code, Database, Server, Settings, Zap } from 'lucide-react';
+
 
 export const personalInfo = {
   name: "Manish Kumar V",
@@ -58,7 +57,7 @@ export const skills = {
   backend: ["Node.js", "Express.js", "JavaScript", "TypeScript"],
   apisIntegration: ["REST APIs", "SOAP APIs", "API Integration", "API Testing", "CRUD Operations", "Plugin Development", "Workflow Automation"],
   enterprise: ["Freshdesk", "Freshservice", "Freshsales", "Freshchat", "Freshcaller", "Moveworks AI"],
-  databases: ["MongoDB", "MySQL", "SQL"],
+  databases: ["MongoDB", "MySQL"],
   cloudDevOps: ["Azure App Services", "Azure DevOps", "Git", "GitHub"],
   tools: ["Postman", "VS Code"]
 };

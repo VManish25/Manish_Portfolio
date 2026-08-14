@@ -8,7 +8,7 @@ const About = () => {
     <section id="about" className="py-24 bg-card/30 border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -18,8 +18,8 @@ const About = () => {
             <h2 className="text-3xl font-bold text-foreground sm:text-4xl tracking-tight mb-6">
               Professional Overview
             </h2>
-            <div className="prose prose-invert max-w-none">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            <div>
+              <p className="text-base text-muted-foreground leading-[1.75] max-w-prose mb-0">
                 {personalInfo.about}
               </p>
             </div>
@@ -33,7 +33,7 @@ const About = () => {
             className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
             <div className="bg-background border border-border p-6 rounded-xl shadow-sm hover:border-primary/50 transition-colors">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="p-2 bg-primary/10 rounded-md">
                   <Layout className="w-5 h-5 text-primary" />
                 </div>
@@ -45,7 +45,7 @@ const About = () => {
             </div>
 
             <div className="bg-background border border-border p-6 rounded-xl shadow-sm hover:border-primary/50 transition-colors">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="p-2 bg-indigo-500/10 rounded-md">
                   <Server className="w-5 h-5 text-indigo-400" />
                 </div>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
 
             <div className="bg-background border border-border p-6 rounded-xl shadow-sm hover:border-primary/50 transition-colors">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="p-2 bg-emerald-500/10 rounded-md">
                   <Settings className="w-5 h-5 text-emerald-400" />
                 </div>
@@ -69,7 +69,7 @@ const About = () => {
             </div>
 
             <div className="bg-background border border-border p-6 rounded-xl shadow-sm hover:border-primary/50 transition-colors">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="p-2 bg-blue-500/10 rounded-md">
                   <Cloud className="w-5 h-5 text-blue-400" />
                 </div>
